@@ -1,0 +1,8 @@
+subscription.env
+*.log
+*.pid
+config.yaml
+GeoSite.dat
+GeoIP.dat
+geosite.dat
+geoip.dat
