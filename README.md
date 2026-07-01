@@ -1,5 +1,7 @@
 # Mihomo/Clash Remote Server Manager
 
+基础代理能力来自 [@MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo)。本仓库只提供一个轻量管理脚本，用来在远程 Linux 服务器上更方便地启动、停止、更新配置和查看日志。
+
 这个小工具用于在远程 Linux 服务器上管理 `mihomo`/`clash`：
 
 - 后台启动代理
@@ -74,13 +76,6 @@ wget -O ~/.config/mihomo/GeoSite.dat https://github.com/ewigl/mihomo/raw/master/
 ## 2. 克隆本管理脚本
 
 在远程服务器上克隆这个仓库：
-
-```bash
-cd ~/.config/mihomo
-git clone git@github.com:BillyLiu312/mihomo-manager.git manager
-```
-
-如果服务器还没配置 GitHub SSH key，也可以用 HTTPS：
 
 ```bash
 cd ~/.config/mihomo
